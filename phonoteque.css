@@ -1,4 +1,6 @@
 
+
+/*POP*/
 /*CLASS*/
 
 .h1 {
@@ -193,5 +195,408 @@
 
   }
 }
+
+/*HARD ROCK - May*/
+
+
+/*GENERAL*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+/*HARD ROCK*/
+
+/*général*/
+
+#hrBody {
+    font-family: Calibri;
+    max-width: 100vw;
+}
+
+
+.hrSection {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/*SECTION 1*/
+#hrSection1 {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+}
+
+
+
+.vinyle {
+    padding: 10px;
+    margin: 20px;
+    margin-bottom: 30px;
+    position: relative;
+    border-radius: 10px;
+}
+
+
+#vinyle1 {
+    background-color: blue;
+}
+
+#vinyle2 {
+    background-color: lightgreen;
+}
+
+#vinyle3 {
+    background-color: red;
+}
+
+#vinyle4 {
+    background-color: orange;
+}
+
+.vinyle div {
+    position: absolute;
+    top: 72%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.vinyleTitre {
+    color: white;
+    opacity: 0.2;
+    transition: 0.5s;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 1.5em;
+}
+
+.vinyle:hover .vinyleTitre {
+    opacity: 1;
+}
+
+
+.vinyleImg {
+    display: block;
+    max-height: 40vh;
+    transition: 1s;
+}
+
+.vinyle:hover .vinyleImg {
+    transform: rotate(180deg);
+}
+
+
+
+/*SECTION 2*/
+#hrSection2 {
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    color: white;
+    text-align: justify;
+}
+
+    #hrSection2 article {
+        width: 75%;
+        padding-bottom: 20px;
+    }
+
+    #hrSection2 h3 {
+        font-size: 2.5em;
+    }
+
+    #hrSection2 h4 {
+        font-size: 2em;
+    }
+
+    #hrSection2 h4, #hrSection2 h3 {
+        font-family: 'Permanent Marker', cursive;
+        color: lightgreen;
+    }
+
+#grandsNoms {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+/*SECTION 3*/
+
+.lzLogo {
+    height: 50vh;
+    width: 100%;
+    background-size: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.lzLogo1 {
+    background-image: url(image/lz-logo.png);
+}
+
+.lzLogo2 {
+    background-image: url(image/lz-4symbols.png);
+}
+
+
+
+/*SECTION4*/
+
+#hrSection4 {
+    align-items: center;
+    justify-content: center;
+    font-family: 'Permanent Marker', cursive;
+    color: red;
+}
+
+#lz-membres {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: center;
+    border: 4px solid black;
+    padding: 20px;
+    background-color: floralwhite;
+}
+
+
+.photoArtiste img {
+    display: block;
+    filter: grayscale(100%);
+    transition: 1s;
+    max-width: 100%;
+    max-height: 500px;
+}
+
+.nomArtiste {
+    opacity: 0;
+    transition: 1s;
+}
+
+    .photoArtiste img:hover {
+        filter: grayscale(30%);
+    }
+
+    .photoArtiste:hover .nomArtiste {
+        opacity: 1;
+    }
+
+
+
+
+
+/*SECTION 5*/
+
+
+#hrSection5 {
+    font-family: Arial, serif;
+    text-transform: uppercase;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+}
+
+    #hrSection5 article {
+            display: flex;
+            width: 75%;
+            justify-content: space-between;
+        }
+
+    #hrSection5 div {
+        height: 80%;
+        justify-content: space-around;
+    }
+
+    
+    #hrSection5 span {
+        color: red;
+    }
+
+
+    .quoteTitre {
+        width: 40%;
+    }
+
+
+    .quote {
+        border-top: 5px solid black;
+        text-align: justify;
+        font-size: 1em;
+        font-weight: 600;
+        opacity: 0;
+        width: 50%;
+        transition: 1s;
+        position: sticky;
+    }
+
+            #hrSection5 article:hover .quote {
+                opacity: 1;
+                transform: translate(-100px,0);
+            }
+
+
+
+
+/*SECTION 6*/
+
+#hrSection6 {
+    background-color: white;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+#blocSection6 {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    text-align: justify;
+    width: 100%;
+    background-color: white;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.descriptionAlbum {
+    max-width: 40%;
+}
+
+ul {
+    list-style: none;
+}
+
+
+.pochette {
+    display: block;
+    max-width: 300px;
+    margin: 0 auto;
+    border: 4px solid black;
+}
+
+
+
+#hrSection6 h3 {
+    font-family: 'Permanent Marker', cursive;
+    color: orange;
+}
+
+#lecteurs {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.blocLecteur {
+    display: flex;
+    height: 30vh;
+    flex-direction: column;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 1.5em;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    transition: 0.5s;
+}
+
+
+.lecteur {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: black;
+    z-index: 1;
+    opacity: 1;
+    padding: 5px;
+}
+
+.blocLecteur img {
+    max-height: 100%;
+    position: absolute;
+    display: block;
+    opacity: 0;
+    z-index: 0;
+    transition: 0.3s;
+}
+
+.hrAudio {
+    display: block;
+    max-width: 100%;
+    opacity: 0.5;
+    transition: 0.5s;
+}
+
+     .blocLecteur:hover {
+            box-shadow: 5px 5px 10px grey;
+        }
+
+    .blocLecteur:hover .hrAudio {
+        opacity: 1;
+    }
+
+    .blocLecteur:hover img {
+        transform: translate(0,-80px);
+        opacity: 1;
+       filter: drop-shadow(5px 5px 10px grey);
+    }
+
+   
+
+#liens {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.lien {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    text-decoration: overline;
+    transition: 1.2s;
+    opacity: 1;
+}
+
+    .lien img {
+        display: block;
+        width: 50px;
+        border-radius: 40%;
+        filter: invert(100%);
+        transition: 1.4s;
+    }
+
+        .lien:hover img {
+            transform: translate(-1000px,0);
+        }
+
+        .lien:hover {
+            text-decoration: none;
+            opacity: 0.2;
+        }
+
 
  
