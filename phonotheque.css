@@ -1,0 +1,196 @@
+h1 {
+    font-size: calc(20px + 18vh);
+    font-family: 'Great Vibes', cursive;
+    line-height: calc(20px + 20vh);
+    text-shadow: 0 0 5px #f562ff, 0 0 15px #f562ff, 0 0 25px #f562ff,
+      0 0 20px #f562ff, 0 0 30px #890092, 0 0 80px #890092, 0 0 80px #890092;
+    color: #fccaff;
+    text-align: center;
+    animation: blink 12s infinite;
+    -webkit-animation: blink 12s infinite;
+    margin: 0;
+  }
+   
+ h2, h3, h4
+{
+    display: flex;
+    justify-content: center;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+h2
+{
+    font-size: 2.2em;
+}
+
+h3
+{
+    font-size: 2em;
+}
+
+h4
+{
+    font-size: 1.8em;
+  
+}
+
+p
+{
+    display: flex;
+    text-align: justify;
+    font-size: 1.3em;
+}
+
+
+/*CLASS*/
+.kim img, .britney img
+{
+    border-radius: 20px;
+    opacity: 1;
+    filter: alpha (opacity=100);
+}
+
+.kim img:hover, .britney img:hover
+{
+    opacity:0.3;
+    filter: alpha(opacity=30);
+}
+
+.intro
+{
+    float: left;
+}
+
+.pop
+{
+    background-image: url(image/vintage.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+
+.kim
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.colonne
+{
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+}
+
+.bloc
+{
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.bloc1
+{
+    margin-right: 10px;
+}
+
+.bloc1, .bloc2
+{
+    background-color: rgba(135,206,250, 0.7);
+    display: flex;
+    border-radius: 25px;
+    box-shadow: 2px 2px 2px lightgray;
+     width: 400px;
+    height: 400px;
+    padding: 50px;
+    justify-content: center;
+    flex-direction: column; 
+}
+
+.discokim, .infoskim, .discobritney, .infosbritney
+{
+    background-color: rgba(255,182,193, 0.7);
+    display: flex;
+    border-radius: 25px;
+     width: 600px;
+    height: 600px;
+    padding: 50px;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 2px 2px 2px lightgray;
+}
+
+.infoskim, .infosbritney
+{
+    display: flex;
+    color: white;
+}
+
+.infoskim h3, .infosbritney h3
+{
+    display: flex;
+   text-align: center;
+}
+
+.imgKP, .imgBS
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+     
+}
+
+.conteneur1, .conteneur2, .conteneur3
+{
+    background-color: rgba(255,0,0, 0.7);
+    display: flex;
+    border-radius: 25px;
+     width: 200px;
+    height: 200px;
+    padding: 50px;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 2px 2px 2px lightgray;
+}
+
+
+
+/*ID*/
+
+
+@-webkit-keyframes blink 
+{
+  20%, 24%, 55% 
+  {
+    color: #111;
+    text-shadow: none;
+  }
+
+  0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% 
+  {
+ color: #fccaff;
+    text-shadow: 0 0 5px #f562ff, 0 0 15px #f562ff, 0 0 25px #f562ff,
+      0 0 20px #f562ff, 0 0 30px #890092, 0 0 80px #890092, 0 0 80px #890092; 
+  }
+}
+
+@keyframes blink 
+{
+  20%, 24%, 55% 
+  {
+    color: #111;
+    text-shadow: none;
+  }
+
+  0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% 
+  {
+   color: #fccaff;
+    text-shadow: 0 0 5px #f562ff, 0 0 15px #f562ff, 0 0 25px #f562ff,
+      0 0 20px #f562ff, 0 0 30px #890092, 0 0 80px #890092, 0 0 80px #890092;
+
+  }
+}
+
+ 
