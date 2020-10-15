@@ -32,7 +32,7 @@ header {
         border: 5px solid rgba(131,58,180,1);
     }
 
-    header h5
+    h5
     {
         font-size: 1.3em;
         margin-bottom: 5px;
@@ -58,6 +58,7 @@ header {
     padding: 20px;
     padding-left: 20px;
     padding-right: 20px;
+    font-family: 'Balsamiq Sans', cursive;
 }
 
 
@@ -69,6 +70,7 @@ header {
 
     #navTop a {
         text-decoration: none;
+        font-family: 'Balsamiq Sans', cursive;
         color: rgba(131,58,180,1);
         transition: 0.7s;
         opacity: 1;
@@ -90,6 +92,7 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    font-family: 'Balsamiq Sans', cursive;
 }
 
 
