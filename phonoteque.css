@@ -31,6 +31,12 @@ header {
         border: 5px solid rgba(131,58,180,1);
     }
 
+    h5
+    {
+        font-size: 1.3em;
+        margin-bottom: 5px;
+        color: white;
+    }
 @keyframes rainbow {
     0% {
         background-position: -500%;
@@ -90,7 +96,7 @@ header {
 
 footer {
     color: #3B3F48;
-    width: 100%;
+    width: 99%;
     height: 25vh;
     display: flex;
     flex-direction: column;
@@ -101,6 +107,20 @@ footer {
     text-align: center;
 }
 
+footer a
+
+{
+color: #3B3F48;
+text-decoration: none;
+transition: 0.2s;
+border-top: 1px solid rgba(255,255,255,0);
+}
+
+footer a:hover
+{
+    border-top: 1px solid rgba(255,255,255,1);
+    color: white;
+}
 .titre {
     display: flex;
     width: 45%;
@@ -500,7 +520,7 @@ footer {
     text-align: center;
     animation: blink 12s infinite;
     -webkit-animation: blink 12s infinite;
-    margin: 0;
+    margin-top: 20px;
   }
    
  .h2, .h3, .h4
@@ -551,14 +571,15 @@ footer {
     float: left;
 }
 
-.pop
+.musicpop
 {
     background-image: url(image/vintage.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     background-attachment: fixed;
     font-family: 'Nanum Gothic', sans-serif;
-    margin: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 
@@ -710,7 +731,7 @@ footer {
 
 /*HARD ROCK*/
 
-/*général*/
+/*gï¿½nï¿½ral*/
 
 #hrBody {
     font-family: Calibri;
