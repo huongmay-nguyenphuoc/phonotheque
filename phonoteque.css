@@ -8,6 +8,7 @@
 header {
     background-color: lightcoral;
     height: 40vh;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -90,7 +91,7 @@ header {
 
 footer {
     color: #3B3F48;
-    width: 100%;
+    width: 90%;
     height: 25vh;
     display: flex;
     flex-direction: column;
@@ -715,6 +716,7 @@ footer {
 #hrBody {
     font-family: Calibri;
     max-width: 100vw;
+    background-color: lightcoral;
 }
 
 
@@ -837,6 +839,7 @@ footer {
     background-size: 70%;
     background-position: center;
     background-repeat: no-repeat;
+    background-color: white;
 }
 
 .lzLogo1 {
@@ -856,6 +859,7 @@ footer {
     justify-content: center;
     font-family: 'Permanent Marker', cursive;
     color: red;
+    background-color: white;
 }
 
 #lz-membres {
@@ -904,6 +908,7 @@ footer {
     justify-content: center;
     align-content: center;
     height: 100vh;
+    background-color: white;
 }
 
     #hrSection5 article {
