@@ -37,6 +37,7 @@ header {
         font-size: 1.3em;
         margin-bottom: 5px;
         color: white;
+        font-family: 'Balsamiq Sans', cursive;
     }
 @keyframes rainbow {
     0% {
@@ -97,7 +98,7 @@ header {
 
 footer {
     color: #3B3F48;
-
+    font-family: 'Balsamiq Sans', cursive;
     width: 99%;
     height: 25vh;
     display: flex;
@@ -109,20 +110,18 @@ footer {
     text-align: center;
 }
 
-footer a
-
-{
+footer a {
 color: #3B3F48;
 text-decoration: none;
 transition: 0.2s;
 border-top: 1px solid rgba(255,255,255,0);
 }
 
-footer a:hover
-{
+footer a:hover {
     border-top: 1px solid rgba(255,255,255,1);
     color: white;
 }
+
 .titre {
     display: flex;
     width: 40%;
